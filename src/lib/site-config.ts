@@ -191,7 +191,7 @@ export const siteConfig = {
   },
 
   /* ---------------- RSVP ---------------- */
-  rsvpDeadlineHuman: "1st August 2026",
+  rsvpDeadlineHuman: "1st August 2027",
 } as const;
 
 export type SiteConfig = typeof siteConfig;

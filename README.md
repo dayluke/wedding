@@ -101,7 +101,7 @@ you want tighter control, replace the update policy with a
 3. In **Settings → Secrets and variables → Actions**, add two
    repository secrets:
    - `NEXT_PUBLIC_SUPABASE_URL`
-   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+   - `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`
 4. Push to `main`. The workflow in
    [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)
    will build the static site and publish it.
